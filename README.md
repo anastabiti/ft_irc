@@ -153,3 +153,13 @@ Under guidance of Benoˆıt Barbot & C´esar Rodr´ıguez](http://www.lsv.fr/~ro
     blocking](https://stackoverflow.com/questions/36985793/blocking-recv-vs-fcntl)
 -   [How to change a tcp socket to be non
     blocking](https://stackoverflow.com/questions/1543466/how-do-i-change-a-tcp-socket-to-be-non-blocking)
+
+
+
+
+
+<img width="1040" alt="Screen Shot 2024-02-29 at 12 28 10 PM" src="https://github.com/anastabiti/ft_irc/assets/79755743/12b7fa9c-d9a8-4498-87f4-5ab9d906eeca">
+<img width="1053" alt="Screen Shot 2024-02-29 at 11 50 41 AM" src="https://github.com/anastabiti/ft_irc/assets/79755743/19cbfe85-a0d3-4684-801c-6ab4574d7206">
+
+
+
