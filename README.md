@@ -1,5 +1,35 @@
 # Yet Another Internet Relay Chat
 
+
+
+
+
+# FT_IRC
+## Description
+```Create your own IRC server in C++, fully compatible with an official client.```
+
+```
+The keyword in IRC is "Relay." While "Internet" and "Chat" have obvious
+meanings, "Relay" sounds a bit more mysterious. Let's have a look at the
+basic concept of IRC in order to discover the meaning behind the term.
+IRC, in its simplest form, is made up of two programs—a server
+program that accepts connections and a client program that connects
+to the server.
+Of course, it isn't absolutely necessary to use a special program—
+the server would view a simple network connection between you and
+the server as a client. However, a client program handles some necessary
+procedures automatically and provides a better and simpler user interface
+than the more technical messages the client and server exchange.
+IRC servers connect to each other via an IRC network of servers. Let's
+use a very simple model of an IRC network for our example: two servers
+and two clients. The servers are connected to each other, and each has a
+client (a user) connected to it. The structure would look like this:
+```
+<img width="598" alt="Screen Shot 2024-02-29 at 11 21 02 AM" src="https://github.com/anastabiti/ft_irc/assets/79755743/d18a804a-4ce2-4e42-b337-041b86fdad1f">
+
+
+<img width="672" alt="Screen Shot 2024-02-29 at 11 26 58 AM" src="https://github.com/anastabiti/ft_irc/assets/79755743/1c2e7cf0-ae22-40b5-a296-1527ab857a94">
+
 # Networking API
 
 All networking API function are considered equivalent to system calls
@@ -84,7 +114,28 @@ reads until it blocks by raising `errno`{.verbatim}.
 ## Commands
 
 # References
-
+- [The UChicago χ-Projects Internet Relay Chat](http://chi.cs.uchicago.edu/chirc/irc.html) 
+- [Beej’s Guide to Network Programming Using Internet Sockets](https://beej.us/guide/bgnet/pdf/bgnet_a4_c_1.pdf)
+- https://ubuntu.com/tutorials/irc-server#5-build-the-server
+- https://www.inspircd.org 
+- https://linuxhint.com/irc_ubuntu/
+- https://ircgod.com/docs/irc/to_know/
+- [Projet Reseau
+Warm Up Exercice — Building an IRC Client and Server
+Under guidance of Benoˆıt Barbot & C´esar Rodr´ıguez](http://www.lsv.fr/~rodrigue/teach/npp/2012/tp1.pdf)
+- [Service Name and Transport Protocol Port Number Registry
+](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+- [Check if a string starts with a certain string in C++
+](https://www.techiedelight.com/check-if-a-string-starts-with-a-certain-string-in-cpp/)
+- [Modern IRC Client Protocol](https://modern.ircdocs.horse/#errneedmoreparams-461)
+- [Socket Programming Tutorial In C For Beginners | Part 1 | Eduonix](https://www.youtube.com/watch?v=LtXEMwSG5-8)
+- [Creating a connection-oriented socket](https://www.ibm.com/docs/en/i/7.3?topic=design-creating-connection-oriented-socket)
+- [What is the difference between a port and a socket?](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
+- [The Definition of a Socket Joel M. Winett Lincoln Laboratory 360/677 May 1971](https://www.rfc-editor.org/rfc/rfc147)
+- [Chapter 4. Elementary TCP Sockets](https://notes.shichao.io/unp/ch4/)
+- [TCP Server-Client implementation in C](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)
+- [ARM BSD Socket](https://www.keil.com/pack/doc/mw6/Network/html/using_network_sockets_bsd.html)
+- [sockets docs.oracle.com](https://docs.oracle.com/cd/E19620-01/805-4041/6j3r8iu2k/index.html)
 -   [IRC Standard](https://www.rfc-editor.org/rfc/rfc1459)
 -   [Using Freenode IRC
     Server](https://unicorn-utterances.com/posts/joining-freenode-irc)
